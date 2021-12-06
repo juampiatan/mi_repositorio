@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto>wghy@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@media screen and (min-width:768px) {
+    h1,
+    h2,
+    p { 
+        flex-flow: column
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+    top: 0%;
+    size: 40px;
+}
+
+.titulo {
+
+    height: 300px;
+    color: rgb(239, 245, 245);
+    font-size: 50px;
+}
+
+.navegador {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    direction: ltr;
+
+}
+
+.navegador__barra {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f9f8fc;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.navegacion {
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+footer li {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    direction: ltr;
+}
+
+.imagen-index {
+    font-size: 100%;
+    font-family: 'Roboto', sans-seif;
+    font-weight: 400;
+    background-image: url("../imagenes/fondo.jpg.lnk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.principal {
+    font-size: 60px;
+    color: #f8f5f5;
+
+}
+
+.listo {
+    font-size: 30px;
+    color: white;
+    text-shadow: -4px -1px 9px #FF0902;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 2.0;
+}
+
+.contenedor {
+    background-color: rgb(151, 116, 116);
+    height: auto;
+    width: 700px;
+    margin: auto;
+    padding: auto;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    display: grid;
+}
+
+.contenedor__hijo {
+    margin: auto;
+    padding: auto;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(199, 23, 23);
+    font-size: 18px;
+}
+
+input,
+label {
+    width: 25%;
+    height: 15%;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding-right: 10%;
+}
+
+
+.footer-nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    direction: unset;
+    margin-top: 0%;
+}
+
+footer {
+    margin-top: 50%;
+}
+
+
+.fondo2 {
+    font-family: 'Roboto', sans-seif;
+    background-image: url("../imagenes/servicios.jpg.lnk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+
+}
+
+.fondo3 {
+    font-family: 'Roboto', sans-seif;
+    background-image: url("../imagenes/nosotros.jpg.lnk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+
+}
+
+i {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    flex-flow: row;
+}
+
+.nosotros {
+    height: 300px;
+    color: rgb(239, 245, 245);
+    font-size: 50px;
+    text-shadow: -4px -1px 9px #FF0902;
+}
+
+.redes {
+    font-size: 30px;
+    color: white;
+    text-shadow: -4px -1px 9px #FF0902;
+    flex-direction: column;
+}
+
+.servicios {
+    height: 300px;
+    color: rgb(43, 7, 247);
+    font-size: 50px;
+    text-shadow: -4px -1px 9px #020202;
+}
+
+.tabla {
+    font-size: 30px;
+    color: rgb(43, 7, 247);
+    text-shadow: -4px -1px 9px #020202;
+    text-align: center;
+}
+
+.tablaViajes {
+    font-size: 30px;
+    color: rgb(43, 7, 247);
+    text-shadow: -4px -1px 9px #020202;
+    text-align: center;
+}
+
+.fondo4 {
+    font-family: 'Roboto', sans-seif;
+    background-image: url("../imagenes/astronauta.jpg.lnk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.fondo5 {
+    font-family: 'Roboto', sans-seif;
+    background-image: url("../imagenes/contacto.jpg.lnk");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.contacto {
+    height: 300px;
+    color: rgb(239, 245, 245);
+    font-size: 50px;
+    text-shadow: -4px -1px 9px #33ce40;
+}
+
+.form {
+    height: 200px;
+    color: rgb(239, 245, 245);
+    font-size: 40px;
+    text-shadow: -4px -1px 9px #33ce40;
+}
